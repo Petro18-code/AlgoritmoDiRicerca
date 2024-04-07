@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#algoritmo {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+#algoritmo form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#algoritmo h1 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: darkblue;
+    text-shadow: 0px 1px 4px;
+}
+
+#risultati {
+    display: block;
+    text-align: center;
+}
+
+#risultati ul {
+    display: block;
+    text-align: left;
+}
+
+#search {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+#insert {
+    display: flex;
+    justify-content: space-between;
+}
